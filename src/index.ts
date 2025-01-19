@@ -1,2 +1,3 @@
-const sample:string = "hello"
-console.log(sample)
+const {Client} = require("./Client")
+
+const client = new Client("RFCL1sy36SQ")
