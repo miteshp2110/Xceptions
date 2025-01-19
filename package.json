@@ -1,0 +1,29 @@
+{
+  "name": "xceptions",
+  "version": "1.0.0",
+  "description": "It is a npm package that will help you in reporting and notifying about exceptions in express application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx ts-node src/index.ts",
+    "build": "npx tsc",
+    "script": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miteshp2110/Xceptions.git"
+  },
+  "keywords": [
+    "exception",
+    "reporting"
+  ],
+  "author": "miteshp2110",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miteshp2110/Xceptions/issues"
+  },
+  "homepage": "https://github.com/miteshp2110/Xceptions#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
