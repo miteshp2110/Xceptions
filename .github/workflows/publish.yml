@@ -25,12 +25,7 @@ jobs:
       - name: Build the package
         run: npm run build
 
-      - name: Bump version and push tag
-        id: bump_version
-        run: |
-          npm version patch  # or minor/major
-          git push origin main --tags
-
+    
       - name: Publish to npm
         run: npm publish
         env:
