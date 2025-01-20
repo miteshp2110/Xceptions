@@ -2,7 +2,7 @@
   "name": "xceptions",
   "version": "1.0.0",
   "description": "It is a npm package that will help you in reporting and notifying about exceptions in express application.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "npx ts-node src/index.ts",
