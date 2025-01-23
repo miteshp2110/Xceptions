@@ -12,7 +12,7 @@ export class Client{
 
     async connect(): Promise<Fielder> {
         try {
-          await axios.get("http://4.240.90.147:5000/api/testConnection", {
+          await axios.get("https://xceptions.tech/service/api/testConnection", {
             headers: {
               'Content-Type': "application/json",
               'ApiKey': this.apiKey,
