@@ -22,7 +22,7 @@ class Fielder{
               }
 
 
-            axios.post("http://localhost:5000/api/addException",data)
+            axios.post("http://4.240.90.147:5000/api/addException",data)
             .catch(()=>{
                 throw new XceptionFailed("Xception failed to report the error.")
             })
