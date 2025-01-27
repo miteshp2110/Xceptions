@@ -1,7 +1,7 @@
 {
   "name": "xceptions",
-  "version": "1.0.2",
-  "description": "It is a npm package that will help you in reporting and notifying about exceptions in express application.",
+  "version": "1.0.3",
+  "description": "A package that reports and notify about exceptions in express application.",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/miteshp2110/Xceptions/issues"
   },
-  "homepage": "https://github.com/miteshp2110/Xceptions#readme",
+  "homepage": "https://xceptions.tech",
   "devDependencies": {
     "@types/express": "^5.0.0",
     "ts-node": "^10.9.2"
